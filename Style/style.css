@@ -49,8 +49,9 @@ tr{margin-bottom:20px;}
     color: aliceblue;
     margin-bottom:20px;
 }
-    /* From Uiverse.io by csemszepp */ 
+<!-- /* ------------search bar------------------------ */ -->
 .container {
+  
     width: 100%;
     height: 100%;
     --s: 200px; /* control the size */
@@ -89,7 +90,8 @@ tr{margin-bottom:20px;}
   .white,
   .border,
   .darkBorderBg,
-  .glow {
+  .glow {margin-left: 1200px;
+    
     max-height: 70px;
     max-width: 314px;
     height: 100%;
@@ -102,6 +104,7 @@ tr{margin-bottom:20px;}
     filter: blur(3px);
   }
   .input {
+    margin-left: 1200px;
     background-color: #010201;
     border: none;
     /* padding:7px; */
@@ -113,6 +116,7 @@ tr{margin-bottom:20px;}
     font-size: 18px;
   }
   #poda {
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -126,10 +130,13 @@ tr{margin-bottom:20px;}
   }
   
   #main:focus-within > #input-mask {
+    
     display: none;
+
   }
   
   #input-mask {
+    margin-left: 1200px; 
     pointer-events: none;
     width: 100px;
     height: 20px;
@@ -139,6 +146,7 @@ tr{margin-bottom:20px;}
     left: 70px;
   }
   #pink-mask {
+    margin-left: 1200px;
     pointer-events: none;
     width: 30px;
     height: 20px;
@@ -188,6 +196,7 @@ animation:leftright 4s ease-in infinite;
     transition: all 2s;
   }
   .border {
+    
     max-height: 59px;
     max-width: 303px;
     border-radius: 11px;
@@ -218,6 +227,7 @@ animation:leftright 4s ease-in infinite;
     transition: all 2s;
   }
   .darkBorderBg {
+    
     max-height: 65px;
     max-width: 312px;
   }
@@ -287,6 +297,7 @@ animation:leftright 4s ease-in infinite;
   }
   
   .glow {
+    
     overflow: hidden;
     filter: blur(30px);
     opacity: 0.4;
@@ -346,6 +357,7 @@ animation:leftright 4s ease-in infinite;
   }
   
   #filter-icon {
+    margin-left: 1200px;
     position: absolute;
     top: 8px;
     right: 8px;
@@ -366,6 +378,7 @@ animation:leftright 4s ease-in infinite;
     border: 1px solid transparent;
   }
   .filterBorder {
+    
     height: 42px;
     width: 40px;
     position: absolute;
@@ -376,6 +389,7 @@ animation:leftright 4s ease-in infinite;
   }
   
   .filterBorder::before {
+    
     content: "";
   
     text-align: center;
@@ -402,6 +416,7 @@ animation:leftright 4s ease-in infinite;
     position: relative;
   }
   #search-icon {
+    margin-left: 1200px;
     position: absolute;
     left: 20px;
     top: 15px;
